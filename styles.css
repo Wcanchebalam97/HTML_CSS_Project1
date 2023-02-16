@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,html{
+    min-width:100%;
+    min-height: 100vh;
+  }
+
+  body{
+
+    background-image:url("https://static.vecteezy.com/system/resources/previews/013/375/540/original/abstract-background-good-for-website-design-wallpaper-background-sosial-media-free-vector.jpg");
+    background-size: cover;
+    font-family:Georgia, serif;
+    color:cyan;
+  }
+
+  #Title{
+    text-align:center;
+    margin:30px 10% 30px 6%;
+    
+  }
+
+  /*This slector is for the rest of the title on the other 
+  pages.*/
+
+  h1{
+    text-align: center;
+    margin:30px 10% 30px 6%;
+  }
+
+  .Menu-Selection{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    margin-bottom: 8%;
+    color:aquamarine;
+  }
+
+  .Menu-Selection>a:link{
+    color:aquamarine;
+    text-decoration: none;
+  }
+
+  .Menu-Selection>a:visited{
+    color:aquamarine;
+  }
+
+  .Menu-Selection>a:hover{
+    color:rgb(236, 21, 226);
+  }
+
+  #A-image{
+    width:30%;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+  }
+
+  #Quote{
+    margin: 10% auto 10% auto;
+    width:75%;
+  }
+
+  #Welcome{
+    width:85%;
+    margin:auto;
+  }
+
+  /*Selectors and styles for the About page*/
+
+  #Videogame-GIF{
+    width:50%;
+    display:box;
+    margin:10% 10% 10% 20%;
+  }
+
+  h4{
+    width: 75%;
+    margin: 10% 10% 10% 10%;
+  }
+
+  .About-p{
+    width: 78%;
+    margin: 0 10% 5% 10%;
+
+  }
+
+  #Viola-Pic{
+    width:80%;
+    margin:10% 10% 0 10%;
+  }
+
+  #Food-Pic{
+    width:80%;
+    margin:10% 10% 0 10%;
+  }
+
+  #Last-About-p{
+    color:rgb(16, 173, 120);
+  }
+
+  /*Selectors for expereince page*/
+
+  h3{
+    margin:10% auto 10% 5%;
+  }
+
+  h5{
+    font-weight: bold;
+    margin:0 auto 3% 5%;
+  }
+
+  ul{
+    width:80%;
+    margin:0 auto 3% 5%;
+  }
+
+  li{
+    margin-top:1%;
+  }
+
+  #Stadium{
+    display: none;
+  }
+
+  #McDonalds{
+    display:none;
+  }
+
+  /*Portfolio Selectors*/
+
+  .Project-Link:link{
+    color:aquamarine;
+    text-decoration: none;
+  }
+
+  .Project-Link:visited{
+    color:aquamarine;
+  }
+
+  .Project-Link:hover{
+    color:rgb(255, 196, 0);
+  }
+
+  .Port-p{
+    width:80%;
+    margin: 0 auto 3% 5%;
+  }
+
+  .Project-Link{
+    margin: 0 auto 0 5%;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+/*Home page selectors*/
+#A-image{
+  max-width:20%;
+}
+
+#Quote{
+  margin: 5% auto 5% auto;
+  text-align:center;
+}
+
+/*About page selectors*/
+#Videogame-GIF{
+  width:50%;
+  display:box;
+  margin:2% 10% 5% 25%;
+}
+
+h4{
+  text-align:center;
+  width: 75%;
+  margin-top:0%;
+  margin-left:13%;
+  margin-bottom:5%;
+  font-size:30px;
+}
+
+.About-p{
+  width: 78%;
+  margin: 0 10% 5% 10%;
+  font-size:20px;
+
+}
+
+#Viola-Pic{
+  width:80%;
+  margin:10% 10% 5% 10%;
+}
+
+#Food-Pic{
+  width:80%;
+  margin:10% 10% 5% 10%;
+}
+
+/*Selectors for expereince page*/
+
+h3{
+  margin:10% auto 3% 5%;
+}
+
+h5{
+  font-weight: bold;
+  margin:0 auto 3% 5%;
+}
+
+ul{
+  max-width:50%;
+  margin:0 auto 3% 5%;
+}
+
+li{
+  margin-top:1%;
+}
+
+#Stadium{
+  display:block;
+  position: absolute;
+  top:35%;
+  right:5%;
+  width:30%;
+}
+
+#McDonalds{
+  display:block;
+  position: absolute;
+  top:100%;
+  right:5%;
+}
+
+
+
+
+
+}
+
+  
